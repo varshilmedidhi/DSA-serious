@@ -136,6 +136,11 @@ right_child=2*parent_index+2
 parent_index= (left_child-1)//2 or (right_child-1)//2
 
 
+
+Big O of trees :- 
+
+insert or remove only takes O(log n) as you are iterating throught the tree 
+and making changes
 """
 
 class MaxHeap:
