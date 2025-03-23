@@ -167,7 +167,7 @@ class MaxHeap:
             right_index = self._right_child(index)
             if (left_index<len(self.heap) and  # bound check if the tree is not complete 
                 self.heap[left_index] > self.heap[max_index]):
-                max_index=index # making max index left index if it is > curr index
+                max_index=left_index # making max index left index if it is > curr index
             if (right_index<len(self.heap) and  # bound check if the tree is not complete 
                 self.heap[right_index]>self.heap[max_index]):
                 max_index=right_index  # making max index right index if it is > curr index
