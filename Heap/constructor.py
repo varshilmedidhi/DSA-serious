@@ -1,5 +1,5 @@
 """
-Heap datastructors hash some sort of hiarachy tree
+Heap is a  data struct which represents  some sort of hiarachy tree
 
 where the Node's parent Nodes are greter and 
 and children Nodes are lower the the current node
