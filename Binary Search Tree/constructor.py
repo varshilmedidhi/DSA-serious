@@ -1,4 +1,7 @@
 from collections import deque
+'''
+binary search tree has left and right values
+'''
 class Node:
     def __init__(self,value):
         self.value=value
